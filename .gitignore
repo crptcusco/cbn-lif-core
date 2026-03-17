@@ -1,0 +1,41 @@
+# --- Artefactos de LaTeX (Crucial para limpiar los [?]) ---
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.pdf
+*.bcf
+*.run.xml
+
+# Archivos de base de datos de Latexmk
+*.fdb_latexmk
+*.fls
+
+# --- Python y Entorno ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.env
+.pytest_cache/
+
+# --- Resultados y Datos (Opcional) ---
+# Si quieres que otros generen sus propias gráficas, ignora la carpeta results
+# results/*.png
+# results/*.pdf
+
+# --- Sistema y Editores ---
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*~
